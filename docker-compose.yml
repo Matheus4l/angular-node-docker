@@ -9,7 +9,7 @@ services:
     container_name: node-api
     volumes:
        - ./nodejs:/usr/src/app/nodejs
-       - /usr/src/app/node/node_modules
+       - /usr/src/app/nodejs/node_modules
   angular-ui:
     build:
       context: ./angular
